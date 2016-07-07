@@ -1,0 +1,39 @@
+@import 'nib'
+@import 'normalize'
+
+azul = #2c3e50
+
+ul
+h1
+	margin 0
+	padding 0
+
+#container
+	background-image url('./img/background.png')
+	min-height 100vh
+	padding 1em
+	
+.wrapper
+	max-width 1000px
+	margin 0 auto
+	
+.title
+	font-size 1.3em
+	color azul
+	letter-spacing .5px
+	text-align center
+	text-transform uppercase
+	
+.container-emojis
+	padding 2em
+	
+	.list-emojis
+		display flex
+		flex-wrap wrap
+		list-style none
+		justify-content center
+		> li
+			margin-right 10px
+		
+.emoji
+	width 36px
